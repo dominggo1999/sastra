@@ -18,6 +18,7 @@ export const FooterTextContent = styled.p`
 export const FooterSocials = styled.ul`
   ${tw`
     flex    
+    flex-wrap
     mt-8
     mb-8 
     lg:mb-0
