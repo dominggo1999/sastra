@@ -5,6 +5,9 @@ export const Btn = styled.button`
     font-spartan 
     text-primary
     relative
+    bg-lightBlue
+    py-4
+    px-2
   `}
 
   &:hover {

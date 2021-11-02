@@ -19,8 +19,8 @@ const Page404 = lazy(() => import('./pages/Page404'));
 
 const Routes = () => {
   return (
-    <Switch>
-      <Suspense fallback={<div>Loading... </div>}>
+    <Suspense fallback={<div>Loading... </div>}>
+      <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/login" component={Login} />
         <Route exact path="/register" component={Register} />
@@ -34,8 +34,8 @@ const Routes = () => {
         <Route exact path="/membership" component={Membership} />
         {/* 404 PAGE */}
         <Route path="*" component={Page404} />
-      </Suspense>
-    </Switch>
+      </Switch>
+    </Suspense>
   );
 };
 
