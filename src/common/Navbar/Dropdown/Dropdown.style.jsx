@@ -7,6 +7,7 @@ export const DropdownWrapper = styled.ul`
     right-0
     bg-lightGray 
     p-4
+    z-50
   `}
 
   /* Reset margin */

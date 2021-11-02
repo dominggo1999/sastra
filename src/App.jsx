@@ -4,6 +4,7 @@ import Routes from './Routes';
 import ScrollToTopButton from './common/ScrollToTop/ScrollToTop';
 import { gridSystem } from './config/gridSystem.config';
 import Navbar from './common/Navbar/Navbar/Navbar';
+import SpaceTop from './common/SpaceTop/SpaceTop';
 
 // Change default react-grid-system config
 setConfiguration(gridSystem);
@@ -13,6 +14,7 @@ const App = () => {
     <>
       {/* <ScrollToTopButton /> */}
       <Navbar />
+      <SpaceTop />
       <Routes />
     </>
   );
