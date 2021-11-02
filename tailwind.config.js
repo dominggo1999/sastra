@@ -9,6 +9,7 @@ module.exports = {
       },
       textColor: {
         primary: '#141C3A',
+        lightBlue: '#00E6CB',
       },
       backgroundColor: {
         primary: '#141C3A',
