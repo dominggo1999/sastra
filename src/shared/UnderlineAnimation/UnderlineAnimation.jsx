@@ -5,10 +5,12 @@ export const UnderlineAnimation = styled.span`
   background-image: linear-gradient(${colors.lightBlue}, ${colors.lightBlue});
   background-position: 0% 100%;
   background-repeat: no-repeat;
-  background-size: 0% 6px;
+  background-size: ${(props) => `0% ${props.size ? props.size : 6}px`};
   transition: background-size 700ms;
 
+  
+
   &:hover {
-    background-size: 100% 6px;
+    background-size: ${(props) => `100% ${props.size ? props.size : 6}px`};
   } 
 `;

@@ -7,4 +7,12 @@ const Section = styled.section`
   `}
 `;
 
+export const Article = styled.article`
+  ${tw`
+    py-8
+    w-full
+    overflow-hidden
+  `}
+`;
+
 export default Section;

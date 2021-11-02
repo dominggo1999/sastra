@@ -7,6 +7,12 @@ const CustomStyles = createGlobalStyle`
     ${tw`antialiased`}
   }
 
+  a{
+    ${tw`
+      text-primary
+    `}
+  }
+
   @font-face {
     font-family: 'Sabrina Pamella';
     font-style: normal;
