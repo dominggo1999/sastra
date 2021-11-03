@@ -1,7 +1,8 @@
 import React, { useState, useRef } from 'react';
-import { Container, Visible } from 'react-grid-system';
+import { Visible } from 'react-grid-system';
 import short from 'short-uuid';
 import { BiSearchAlt2 } from 'react-icons/bi';
+import Container from '../../../shared/Container/Container';
 import Link from '../../../shared/Link';
 import NavLink from '../NavLink/NavLink';
 import {

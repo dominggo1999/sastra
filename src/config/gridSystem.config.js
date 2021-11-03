@@ -9,4 +9,8 @@ const generateContainerSize = (arr) => {
 export const gridSystem = {
   breakpoints,
   containerWidths: generateContainerSize(breakpoints),
+  gutterWidth: 30,
+  gridColumns: 12,
+  defaultScreenClass: 'xxl',
+  maxScreenClass: 'xxl',
 };

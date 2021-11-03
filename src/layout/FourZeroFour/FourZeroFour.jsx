@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container } from 'react-grid-system';
+import Container from '../../shared/Container/Container';
 import Link from '../../shared/Link';
 import { Wrapper404, ErrorCode, ErrorMessage } from './FourZeroFour.style';
 import Button from '../../shared/Button/Button';

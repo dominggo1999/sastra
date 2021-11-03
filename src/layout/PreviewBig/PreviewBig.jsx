@@ -1,6 +1,7 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-grid-system';
+import { Row, Col } from 'react-grid-system';
 import short from 'short-uuid';
+import Container from '../../shared/Container/Container';
 import Link from '../../shared/Link';
 import { Article } from '../../shared/Section/Section';
 import {

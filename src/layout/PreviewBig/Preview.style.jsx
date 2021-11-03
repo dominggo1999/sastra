@@ -2,7 +2,7 @@ import tw, { styled } from 'twin.macro';
 import { breakpoints } from '../../constants/tailwindBreakpoints';
 import { colors } from '../../constants/colors';
 
-export const PreviewWrapper = styled.article`
+export const PreviewWrapper = styled.div`
   ${tw`
     relative 
     py-8 

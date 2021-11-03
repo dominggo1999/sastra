@@ -1,6 +1,7 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-grid-system';
+import { Row, Col } from 'react-grid-system';
 import short from 'short-uuid';
+import Container from '../../shared/Container/Container';
 import {
   FooterWrapper, Copyright, FooterTextContent, FooterSocials, FooterIcon,
 } from './Footer.style';

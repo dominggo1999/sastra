@@ -1,5 +1,6 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-grid-system';
+import { Row, Col } from 'react-grid-system';
+import Container from '../../shared/Container/Container';
 import PinnedPage from '../PinnedPage/PinnedPage';
 import Section from '../../shared/Section/Section';
 import PinnedPost from '../PinnedPost/PinnedPost';

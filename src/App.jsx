@@ -11,13 +11,13 @@ setConfiguration(gridSystem);
 
 const App = () => {
   return (
-    <Container>
+    <>
       {/* <ScrollToTopButton /> */}
       <Navbar />
       <SpaceTop />
       <Routes />
       <Footer />
-    </Container>
+    </>
   );
 };
 
