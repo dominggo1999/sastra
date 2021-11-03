@@ -5,6 +5,8 @@ export const PinnedSectionWrapper = styled.div`
   ${tw`
     border-black
     p-10
+    md:px-0
+    md:py-10
     border-dashed
     border-primary
   `}
