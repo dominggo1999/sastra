@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from 'react-grid-system';
-import { Link } from 'react-router-dom';
+import Link from '../../shared/Link';
 import { Wrapper404, ErrorCode, ErrorMessage } from './FourZeroFour.style';
 import Button from '../../shared/Button/Button';
 import Section from '../../shared/Section/Section';

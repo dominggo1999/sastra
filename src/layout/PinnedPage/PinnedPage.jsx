@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from '../../shared/Link';
 import { PinnedPageCard, PinnedPageTitle, PinnedPageCardTitle } from './PinnedPage.style';
 import { UnderlineAnimation } from '../../shared/UnderlineAnimation/UnderlineAnimation';
 

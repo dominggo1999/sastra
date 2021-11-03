@@ -1,7 +1,7 @@
 import React from 'react';
 import { Col, Row } from 'react-grid-system';
-import { Link } from 'react-router-dom';
 import short from 'short-uuid';
+import Link from '../../shared/Link';
 import {
   PreviewWrapper, Excerpt, Tags, Meta, Title, ImageContent,
 } from './PreviewSmall.style';

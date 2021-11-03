@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import short from 'short-uuid';
+import Link from '../../shared/Link';
 import { Column, FooterLink } from './FooterLinkColumn.style';
 import { UnderlineAnimation } from '../../shared/UnderlineAnimation/UnderlineAnimation';
 

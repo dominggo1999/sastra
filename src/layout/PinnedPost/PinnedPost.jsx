@@ -1,7 +1,7 @@
 import React from 'react';
 import { Row, Col } from 'react-grid-system';
 import short from 'short-uuid';
-import { Link } from 'react-router-dom';
+import Link from '../../shared/Link';
 import {
   PinnedPostWrapper, PinnedPostCard, PinnedPostTitle, PinnedPostCardTitle, PinnedPostCardAuthor,
 } from './PinnedPost.style';

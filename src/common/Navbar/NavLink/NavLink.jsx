@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import { Link } from 'react-router-dom';
+import Link from '../../../shared/Link';
 import { LinkWrapper } from './NavLink.style';
 
 const NavLink = forwardRef(({ data, children }, ref) => {
