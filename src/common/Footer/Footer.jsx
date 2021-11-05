@@ -1,7 +1,7 @@
 import React from 'react';
-import { Row, Col } from 'react-grid-system';
 import short from 'short-uuid';
-import Container from '../../shared/Container/Container';
+import tw from 'twin.macro';
+import { Container, Row, Col } from '../../shared/Flexi';
 import {
   FooterWrapper, Copyright, FooterTextContent, FooterSocials, FooterIcon,
 } from './Footer.style';
@@ -16,8 +16,7 @@ const Footer = () => {
       <Container>
         <Row>
           <Col
-            xs={12}
-            lg={4}
+            tw="w-full lg:w-4/12"
           >
             <Logo />
             <FooterTextContent>
@@ -39,8 +38,7 @@ const Footer = () => {
             </FooterSocials>
           </Col>
           <Col
-            xs={12}
-            lg={8}
+            tw="w-full lg:w-8/12"
           >
             <Row>
               {
@@ -48,8 +46,7 @@ const Footer = () => {
                   return (
                     <Col
                       key={short.generate()}
-                      xs={6}
-                      sm={3}
+                      tw="w-6/12 lg:w-3/12"
                     >
                       <FooterLinkColumn data={data} />
                     </Col>

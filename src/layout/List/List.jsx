@@ -1,11 +1,11 @@
 import React from 'react';
 import short from 'short-uuid';
-import { Row, Col } from 'react-grid-system';
+import tw from 'twin.macro';
 import {
   ListWrapper, ListHeader, CardImage, Card, BigCard, BottomListWrapper, Name, NumOfPost,
 } from './List.style';
 import Section from '../../shared/Section/Section';
-import Container from '../../shared/Container/Container';
+import { Row, Container, Col } from '../../shared/Flexi';
 import { UnderlineAnimation } from '../../shared/UnderlineAnimation/UnderlineAnimation';
 import Link from '../../shared/Link';
 
@@ -19,8 +19,7 @@ const List = ({ top, more, path }) => {
             {top && top.map((item) => {
               return (
                 <Col
-                  xs={6}
-                  md={4}
+                  tw="w-6/12 md:w-4/12"
                   key={short.generate()}
                 >
                   <BigCard>
@@ -58,9 +57,7 @@ const List = ({ top, more, path }) => {
               {more && more.map((item) => {
                 return (
                   <Col
-                    xs={6}
-                    md={4}
-                    xl={3}
+                    tw="w-6/12 md:w-4/12 xl:w-3/12"
                     key={short.generate()}
                   >
                     <Card>

@@ -1,6 +1,5 @@
 import React from 'react';
-import { Row, Col } from 'react-grid-system';
-import Container from '../../shared/Container/Container';
+import { Container, Row } from '../../shared/Flexi';
 import PreviewBig from '../PreviewBig/PreviewBig';
 import { blogPosts } from '../../data/blogPosts';
 import { BlogListGrid } from './BlogList.style';

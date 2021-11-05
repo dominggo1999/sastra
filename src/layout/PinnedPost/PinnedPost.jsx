@@ -1,6 +1,7 @@
 import React from 'react';
-import { Row, Col } from 'react-grid-system';
 import short from 'short-uuid';
+import tw from 'twin.macro';
+import { Row, Col } from '../../shared/Flexi';
 import Link from '../../shared/Link';
 import {
   PinnedPostWrapper, PinnedPostCard, PinnedPostTitle, PinnedPostCardTitle, PinnedPostCardAuthor,
@@ -28,11 +29,11 @@ const PinnedPost = () => {
       <PinnedPostCardTitle>
         Don&apos;t miss it
       </PinnedPostCardTitle>
-      <Row align="stretch">
+      <Row>
         {postData && postData.map((data) => {
           return (
             <Col
-              md={4}
+              tw="w-full md:w-4/12"
               key={short.generate()}
             >
               <PinnedPostCard>

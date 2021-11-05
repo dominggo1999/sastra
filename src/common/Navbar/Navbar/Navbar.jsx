@@ -2,7 +2,7 @@ import React, { useState, useRef } from 'react';
 import { Visible } from 'react-grid-system';
 import short from 'short-uuid';
 import { BiSearchAlt2 } from 'react-icons/bi';
-import Container from '../../../shared/Container/Container';
+import { Container } from '../../../shared/Flexi';
 import Link from '../../../shared/Link';
 import NavLink from '../NavLink/NavLink';
 import {

@@ -1,6 +1,6 @@
 import React from 'react';
-import { Row, Col } from 'react-grid-system';
-import Container from '../../shared/Container/Container';
+import tw from 'twin.macro';
+import { Row, Container, Col } from '../../shared/Flexi';
 import PinnedPage from '../PinnedPage/PinnedPage';
 import Section from '../../shared/Section/Section';
 import PinnedPost from '../PinnedPost/PinnedPost';
@@ -13,14 +13,12 @@ const PinnedSection = () => {
         <PinnedSectionWrapper>
           <Row align="stretch">
             <Col
-              xs={12}
-              lg={3}
+              tw="w-full lg:w-3/12"
             >
               <PinnedPage />
             </Col>
             <Col
-              xs={12}
-              lg={9}
+              tw="w-full lg:w-9/12"
             >
               <PinnedPost />
             </Col>

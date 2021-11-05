@@ -1,7 +1,7 @@
 import React from 'react';
-import { Row, Col } from 'react-grid-system';
 import short from 'short-uuid';
-import Container from '../../shared/Container/Container';
+import tw from 'twin.macro';
+import { Row, Container, Col } from '../../shared/Flexi';
 import Link from '../../shared/Link';
 import { Article } from '../../shared/Section/Section';
 import {
@@ -40,8 +40,7 @@ const PreviewBig = ({ data }) => {
           <PreviewImage image={image} />
           <Row>
             <Col
-              xs={12}
-              md={8}
+              tw="w-full md:w-8/12"
             >
               <Meta>
                 <time>{parseDate(date)}</time>

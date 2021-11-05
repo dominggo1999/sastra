@@ -1,6 +1,7 @@
 import React from 'react';
-import { Col, Row } from 'react-grid-system';
 import short from 'short-uuid';
+import tw from 'twin.macro';
+import { Row, Col } from '../../shared/Flexi';
 import Link from '../../shared/Link';
 import {
   PreviewWrapper, Excerpt, Tags, Meta, Title, ImageContent,
@@ -29,12 +30,13 @@ const PreviewSmall = ({ data }) => {
 
   return (
     <Col
-      xs={12}
-      lg={6}
+      tw="w-full lg:w-6/12"
     >
       <PreviewWrapper>
         <Row>
-          <Col xs={8}>
+          <Col
+            tw="w-8/12"
+          >
             <Title>
               <Link to="/blog-single">
                 <UnderlineAnimation size={10}>

@@ -1,6 +1,6 @@
 import React from 'react';
-import { Row, Col, Visible } from 'react-grid-system';
-import Container from '../../shared/Container/Container';
+import tw from 'twin.macro';
+import { Container, Row, Col } from '../../shared/Flexi';
 import { FormContent } from './FormSection.style';
 
 const FormSection = ({ children }) => {
@@ -10,9 +10,7 @@ const FormSection = ({ children }) => {
         justify="center"
       >
         <Col
-          xs={12}
-          md={8}
-          lg={5}
+          tw="w-full md:w-8/12 lg:w-5/12"
         >
           <FormContent>
             {children}
