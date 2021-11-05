@@ -24,6 +24,10 @@ export const FormStyle = styled.form`
       font-semibold 
       outline-none
       mb-6
+      transition-colors
+      ease-in-out
+      duration-100
+      focus:bg-lightBlue 
     `}
   }
 
