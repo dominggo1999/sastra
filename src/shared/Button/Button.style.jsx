@@ -7,7 +7,7 @@ export const Btn = styled.button`
     relative
     bg-lightBlue
     py-4
-    px-2
+    px-6
   `}
 
   &:hover {

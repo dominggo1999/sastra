@@ -77,7 +77,7 @@ const Navbar = () => {
                   })
                 }
                 <NavLink>
-                  <Link to="register">
+                  <Link to="/sign-up">
                     <Button>
                       Register For Free
                     </Button>

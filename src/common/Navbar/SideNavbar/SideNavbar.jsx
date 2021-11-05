@@ -14,8 +14,8 @@ const SideNavbar = ({ open, handleClose }) => {
       <CloseButton onClick={handleClose}>
         <CgClose />
       </CloseButton>
-      <SideNavLink>
-        <Link to="register">
+      <SideNavLink handleClose={handleClose}>
+        <Link to="/sign-up">
           <Button>
             Register For Free
           </Button>

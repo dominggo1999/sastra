@@ -1,13 +1,13 @@
 import React from 'react';
 import FormSection from '../layout/FormSection/FormSection';
-import SubscribeForm from '../layout/SubscribeForm/SubscribeForm';
+import SignUpForm from '../layout/SignUpForm/SignUpForm';
 
-const Subscribe = () => {
+const SignUp = () => {
   return (
     <FormSection>
-      <SubscribeForm />
+      <SignUpForm />
     </FormSection>
   );
 };
 
-export default Subscribe;
+export default SignUp;

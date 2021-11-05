@@ -1,10 +1,12 @@
 import React from 'react';
+import FormSection from '../layout/FormSection/FormSection';
+import ContactForm from '../layout/ContactForm/ContactForm';
 
 const Contact = () => {
   return (
-    <div>
-
-    </div>
+    <FormSection>
+      <ContactForm />
+    </FormSection>
   );
 };
 

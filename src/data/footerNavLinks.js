@@ -68,7 +68,7 @@ export const footerNavLinks = [
     },
     {
       text: 'Sign Up',
-      path: '/register',
+      path: '/sign-up',
     },
   ],
 ];

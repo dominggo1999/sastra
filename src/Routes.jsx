@@ -3,7 +3,7 @@ import { Route, Switch } from 'react-router-dom';
 
 const Home = lazy(() => import('./pages/Home'));
 const Login = lazy(() => import('./pages/Login'));
-const Register = lazy(() => import('./pages/Register'));
+const SignUp = lazy(() => import('./pages/SignUp'));
 const Subscribe = lazy(() => import('./pages/Subscribe'));
 const Contact = lazy(() => import('./pages/Contact'));
 const Authors = lazy(() => import('./pages/Authors'));
@@ -23,7 +23,7 @@ const Routes = () => {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/login" component={Login} />
-        <Route exact path="/register" component={Register} />
+        <Route exact path="/sign-up" component={SignUp} />
         <Route exact path="/subscribe" component={Subscribe} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/authors" component={Authors} />
