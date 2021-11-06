@@ -21,6 +21,7 @@ const Tags = () => {
         more={moreTags}
         top={topTags}
         path="/tag-single"
+        tag
       />
     </>
   );

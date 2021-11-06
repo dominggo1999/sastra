@@ -6,7 +6,7 @@ import Link from '../Link';
 import { UnderlineAnimation } from '../UnderlineAnimation/UnderlineAnimation';
 
 const CirclePreview = ({
-  big, item, path, imageOnly,
+  big, item, path, imageOnly, tag,
 }) => {
   return (
     <Card big={big}>
@@ -22,9 +22,11 @@ const CirclePreview = ({
         !imageOnly
         && (
         <>
+
           <Name big={big}>
             <UnderlineAnimation>
               <Link to={path}>
+                {tag && '#'}
                 {item.name}
               </Link>
             </UnderlineAnimation>

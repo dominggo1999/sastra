@@ -2,20 +2,23 @@ import React from 'react';
 import short from 'short-uuid';
 import tw from 'twin.macro';
 import {
-  ListHeader, BottomListWrapper,
+  BottomListWrapper,
 } from './List.style';
 import Section from '../../shared/Section/Section';
 import { Row, Container, Col } from '../../shared/Flexi';
 import CirclePreview from '../../shared/CirclePreview/CirclePreview';
+import SectionHeader from '../../shared/SectionHeader/SectionHeader';
 
 // path props hanya untuk testing saja untuk membedakan antara author list atau tag list
 // path nya nanti akan didapatkan dari slug masing-masing tag dan authors
 
-const List = ({ top, more, path }) => {
+const List = ({
+  top, more, path, tag,
+}) => {
   return (
     <Section>
       <Container>
-        <ListHeader>Top Authors This Week</ListHeader>
+        <SectionHeader>Top Authors This Week</SectionHeader>
         <Row justify="center">
           {top && top.map((item) => {
             return (
@@ -27,13 +30,14 @@ const List = ({ top, more, path }) => {
                   item={item}
                   path={path}
                   big
+                  tag={tag}
                 />
               </Col>
             );
           })}
         </Row>
 
-        <ListHeader spaceTop>See Also</ListHeader>
+        <SectionHeader spaceTop>See Also</SectionHeader>
         <BottomListWrapper>
           <Row
             justify="center"
@@ -47,6 +51,7 @@ const List = ({ top, more, path }) => {
                   <CirclePreview
                     item={item}
                     path={path}
+                    tag={tag}
                   />
                 </Col>
               );

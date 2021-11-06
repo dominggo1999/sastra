@@ -1,7 +1,7 @@
 import tw, { styled } from 'twin.macro';
 
-export const BottomListWrapper = styled.div`
+export const Plans = styled.div`
   ${tw`
-    lg:px-48
+    pt-8
   `}
 `;

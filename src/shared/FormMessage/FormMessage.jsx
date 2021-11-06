@@ -1,9 +1,9 @@
 import React from 'react';
 import { MessageStyle } from './FormMessage.style';
 
-const FormMessage = ({ children }) => {
+const FormMessage = ({ children, center }) => {
   return (
-    <MessageStyle>
+    <MessageStyle center={center}>
       {children}
     </MessageStyle>
   );
