@@ -13,7 +13,7 @@ module.exports = {
       },
       backgroundColor: {
         primary: '#141C3A',
-        lightGray: '#F7F7F7',
+        lightGray: '#F5F5F5',
         lightBlue: '#00E6CB',
         lightYellow: '#FED672',
       },

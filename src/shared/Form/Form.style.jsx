@@ -36,7 +36,7 @@ export const FormStyle = styled.form`
     max-height: 300px;
 
     ${tw`
-      bg-[#F1F1F1]
+      bg-lightGray
       py-4
       px-4 
       font-spartan

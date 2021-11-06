@@ -10,8 +10,8 @@ export const PreviewWrapper = styled.article`
     md:pl-6
     md:border-dashed
     md:border-primary
+    md:border-l
   `}
-  border-left-width: 1px;
 `;
 
 export const ImageContent = styled.div`

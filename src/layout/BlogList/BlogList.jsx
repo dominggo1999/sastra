@@ -8,7 +8,15 @@ import Section from '../../shared/Section/Section';
 
 const test = blogPosts[0];
 
-const BlogList = () => {
+// Fetch data blog list in parent components and past to this components
+/*
+    TODO
+    1. There is 2 type of blog preview card, the big one and the small one
+    2. 1,6,11   === > 5(n-1) +_1 yang besar
+    2. 2,3,4,5 gabungkan jadi satu di row
+*/
+
+const BlogList = ({ blogList }) => {
   return (
     <>
       <PreviewBig data={test} />
