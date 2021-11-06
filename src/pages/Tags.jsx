@@ -20,6 +20,7 @@ const Tags = () => {
       <List
         more={moreTags}
         top={topTags}
+        path="/tag-single"
       />
     </>
   );

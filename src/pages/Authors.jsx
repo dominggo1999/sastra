@@ -20,6 +20,7 @@ const Authors = () => {
       <List
         more={moreAuthors}
         top={topAuthors}
+        path="/author-single"
       />
     </>
   );
