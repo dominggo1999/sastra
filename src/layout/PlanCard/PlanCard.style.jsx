@@ -7,8 +7,6 @@ export const Card = styled.div`
     border-dashed
     border-primary 
     border
-    md:border-0
-    md:border-l 
     px-8
     xl:px-14
     py-10 
