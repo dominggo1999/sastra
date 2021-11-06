@@ -1,7 +1,7 @@
 import React from 'react';
 import CirclePreview from '../../shared/CirclePreview/CirclePreview';
 import { Container } from '../../shared/Flexi';
-import { Wrapper } from './TagSingle.style';
+import { Wrapper } from './TagSingleHeader.style';
 
 const TagSingleHeader = ({ item, path }) => {
   return (

@@ -1,5 +1,4 @@
 import tw, { styled } from 'twin.macro';
-import { breakpoints } from '../../constants/tailwindBreakpoints';
 
 export const BottomListWrapper = styled.div`
   ${tw`
@@ -8,7 +7,6 @@ export const BottomListWrapper = styled.div`
 `;
 
 export const ListHeader = styled.p`
-
   ${tw`
     flex 
     justify-center

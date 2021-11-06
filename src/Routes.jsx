@@ -7,6 +7,7 @@ const SignUp = lazy(() => import('./pages/SignUp'));
 const Subscribe = lazy(() => import('./pages/Subscribe'));
 const Contact = lazy(() => import('./pages/Contact'));
 const Authors = lazy(() => import('./pages/Authors'));
+const AuthorSingle = lazy(() => import('./pages/AuthorSingle'));
 const Tags = lazy(() => import('./pages/Tags'));
 const TagSingle = lazy(() => import('./pages/TagSingle'));
 const AccountFree = lazy(() => import('./pages/AccountFree'));
@@ -27,6 +28,7 @@ const Routes = () => {
         <Route exact path="/subscribe" component={Subscribe} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/authors" component={Authors} />
+        <Route exact path="/author-single" component={AuthorSingle} />
         <Route exact path="/tags" component={Tags} />
         <Route exact path="/tag-single" component={TagSingle} />
         <Route exact path="/account-free" component={AccountFree} />

@@ -5,7 +5,9 @@ import {
 import Link from '../Link';
 import { UnderlineAnimation } from '../UnderlineAnimation/UnderlineAnimation';
 
-const CirclePreview = ({ big, item, path }) => {
+const CirclePreview = ({
+  big, item, path, imageOnly,
+}) => {
   return (
     <Card big={big}>
       <CardImage big={big}>
@@ -16,18 +18,26 @@ const CirclePreview = ({ big, item, path }) => {
           />
         </Link>
       </CardImage>
-      <Name big={big}>
-        <UnderlineAnimation>
-          <Link to={path}>
-            {item.name}
-          </Link>
-        </UnderlineAnimation>
-      </Name>
-      <NumOfPost>
-        {item.numberOfPost}
-        {' '}
-        posts
-      </NumOfPost>
+      {
+        !imageOnly
+        && (
+        <>
+          <Name big={big}>
+            <UnderlineAnimation>
+              <Link to={path}>
+                {item.name}
+              </Link>
+            </UnderlineAnimation>
+          </Name>
+          <NumOfPost>
+            {item.numberOfPost}
+            {' '}
+            posts
+          </NumOfPost>
+        </>
+        )
+      }
+
     </Card>
   );
 };
