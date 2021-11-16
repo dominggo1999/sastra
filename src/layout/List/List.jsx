@@ -52,6 +52,7 @@ const List = ({
                     item={item}
                     path={path}
                     tag={tag}
+                    pb
                   />
                 </Col>
               );

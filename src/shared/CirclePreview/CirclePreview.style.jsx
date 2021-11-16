@@ -9,10 +9,10 @@ export const Card = styled.div`
     items-center 
   `}
 
-  ${({ big }) => (
-    big
-      ? tw`md:mb-0`
-      : tw`mb-10`)}
+  ${({ pb }) => (
+    pb
+      ? tw`md:mb-10`
+      : tw`mb-0`)}
 `;
 
 export const CardImage = styled.div`

@@ -60,7 +60,7 @@ export const footerNavLinks = [
     },
     {
       text: 'Account Page',
-      path: '/account',
+      path: '/account-paid',
     },
     {
       text: 'Sign In',

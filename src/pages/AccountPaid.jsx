@@ -1,10 +1,13 @@
 import React from 'react';
+import AccountHeader from '../layout/AccountHeader/AccountHeader';
 
 const AccountPaid = () => {
-  return (
-    <div>
+  // get account information here and pass to children
 
-    </div>
+  return (
+    <>
+      <AccountHeader />
+    </>
   );
 };
 

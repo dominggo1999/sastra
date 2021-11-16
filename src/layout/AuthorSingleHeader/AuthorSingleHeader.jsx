@@ -3,10 +3,11 @@ import short from 'short-uuid';
 import tw from 'twin.macro';
 import CirclePreview from '../../shared/CirclePreview/CirclePreview';
 import {
-  Wrapper, Name, Meta, About, Socials,
+  Wrapper, Name, Meta, Socials,
 } from './AuthorSingleHeader.style';
 import { Container, Row, Col } from '../../shared/Flexi';
 import SocialIcon from '../../shared/SocialIcon/SocialIcon';
+import HeaderDescription from '../../shared/HeaderDescription/HeaderDescription';
 
 const AuthorSingleHeader = ({ item, path }) => {
   return (
@@ -48,9 +49,9 @@ const AuthorSingleHeader = ({ item, path }) => {
           }
           </Row>
         </Socials>
-        <About>
+        <HeaderDescription>
           {item.about}
-        </About>
+        </HeaderDescription>
       </Wrapper>
     </Container>
   );
