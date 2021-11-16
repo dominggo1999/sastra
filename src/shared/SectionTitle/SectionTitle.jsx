@@ -1,6 +1,6 @@
 import tw, { styled } from 'twin.macro';
 
-const SectionHeader = styled.div`
+const SectionTitle = styled.div`
   ${tw`
     flex 
     justify-center
@@ -16,4 +16,4 @@ const SectionHeader = styled.div`
   ${({ spaceTop }) => spaceTop && tw`mt-8 md:mt-28`}
 `;
 
-export default SectionHeader;
+export default SectionTitle;

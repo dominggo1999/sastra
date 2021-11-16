@@ -11,4 +11,5 @@ export const colors = {
   blog6: '#C18CEE',
   blog7: '#EBEBEB',
   blog8: '#FDEACC',
+  membership: '#FED672',
 };

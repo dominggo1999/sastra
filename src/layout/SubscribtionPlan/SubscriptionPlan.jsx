@@ -2,7 +2,7 @@ import React from 'react';
 import short from 'short-uuid';
 import tw from 'twin.macro';
 import { Container, Row, Col } from '../../shared/Flexi';
-import SectionHeader from '../../shared/SectionHeader/SectionHeader';
+import SectionTitle from '../../shared/SectionTitle/SectionTitle';
 import Section from '../../shared/Section/Section';
 import { subPlan } from '../../data/subPlan';
 import PlanCard from '../PlanCard/PlanCard';
@@ -14,7 +14,7 @@ const SubscriptionPlan = () => {
   return (
     <Section>
       <Container>
-        <SectionHeader>Choose your plan</SectionHeader>
+        <SectionTitle>Choose your plan</SectionTitle>
         <Plans>
           <Row
             tw="gap-y-20"

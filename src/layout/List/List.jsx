@@ -1,13 +1,13 @@
 import React from 'react';
 import short from 'short-uuid';
-import tw from 'twin.macro';
+import 'twin.macro';
 import {
   BottomListWrapper,
 } from './List.style';
 import Section from '../../shared/Section/Section';
 import { Row, Container, Col } from '../../shared/Flexi';
 import CirclePreview from '../../shared/CirclePreview/CirclePreview';
-import SectionHeader from '../../shared/SectionHeader/SectionHeader';
+import SectionTitle from '../../shared/SectionTitle/SectionTitle';
 
 // path props hanya untuk testing saja untuk membedakan antara author list atau tag list
 // path nya nanti akan didapatkan dari slug masing-masing tag dan authors
@@ -18,7 +18,7 @@ const List = ({
   return (
     <Section>
       <Container>
-        <SectionHeader>Top Authors This Week</SectionHeader>
+        <SectionTitle>Top Authors This Week</SectionTitle>
         <Row justify="center">
           {top && top.map((item) => {
             return (
@@ -37,7 +37,7 @@ const List = ({
           })}
         </Row>
 
-        <SectionHeader spaceTop>See Also</SectionHeader>
+        <SectionTitle spaceTop>See Also</SectionTitle>
         <BottomListWrapper>
           <Row
             justify="center"
