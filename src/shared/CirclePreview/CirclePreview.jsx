@@ -11,12 +11,21 @@ const CirclePreview = ({
   return (
     <Card pb={pb}>
       <CardImage big={big}>
-        <Link to={path}>
-          <img
-            src={item.imageUrl}
-            alt="Cool"
-          />
-        </Link>
+        {path
+          ? (
+            <Link to={path}>
+              <img
+                src={item.imageUrl}
+                alt="Cool"
+              />
+            </Link>
+          )
+          : (
+            <img
+              src={item.imageUrl}
+              alt="Cool"
+            />
+          )}
       </CardImage>
       {
         !imageOnly
